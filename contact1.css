@@ -1,0 +1,10 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    padding-top: 700px;
+    padding-left: 100px;
+    text-size-adjust: 10px;
+}
