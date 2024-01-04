@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    align-items: center;
+}
+form, .placeholder{
+    background-color: aqua;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+
+}
+input{
+    background-color: transparent;
+    margin-bottom: 2rem;
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn, button{
+    border-radius: 5px;
+}
