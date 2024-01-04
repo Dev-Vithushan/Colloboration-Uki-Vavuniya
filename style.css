@@ -8,7 +8,8 @@ section{
     align-items: center;
 }
 form, .placeholder{
-    color: aqua;
+    background-color: aqua;
+    color: black;
     font-weight: 600;
     font-size: 1rem;
     border: 1px solid black;
@@ -20,10 +21,12 @@ input{
     margin-bottom: 2rem;
     border-style: none;
     border-bottom: 1px solid black;
-
 }
 
 .btn{
     display: flex;
     justify-content: center;
+}
+.btn, button{
+    border-radius: 5px;
 }
